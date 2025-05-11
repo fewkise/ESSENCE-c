@@ -49,6 +49,15 @@ header {
         }
     }
 }
+.forPhotoOdin {
+    width: 50vw; 
+    max-width: 960px; 
+    height: 957px; 
+    overflow: hidden; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
 .allTovar {
     display: flex;
     flex-direction: row;
