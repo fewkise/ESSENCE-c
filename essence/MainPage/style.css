@@ -18,6 +18,7 @@ header .opisanieTovara {
   justify-content: space-around;
   background-color: #FFFDF7;
   width: 50%;
+  height: 900px;
 }
 header .opisanieTovara ul {
   display: flex;
@@ -160,7 +161,6 @@ header nav ul li a {
 .blurImg {
   background-image: url("../MainPage/imgs/d7ee8f89-1i2a2020 3.png");
   height: 200px;
-  background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   background-position: center;
@@ -290,4 +290,62 @@ header nav ul li a {
 }
 .footerAll footer ul li a p {
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .partnersAll ul:nth-child(2) {
+    height: auto;
+    row-gap: 2vh;
+  }
+  header .opisanieTovara ul li:nth-child(3) p {
+    text-align: left;
+  }
+  .weBelieveAll .withText ul li p {
+    text-align: left;
+  }
+  .blurImg {
+    text-align: center;
+  }
+  .footerAll footer {
+    height: auto;
+    row-gap: 2vh;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+  header nav ul:nth-child(2) p {
+    font-size: 30px;
+    letter-spacing: 9px;
+  }
+  header nav ul:nth-child(1) li:nth-child(1) {
+    display: none;
+  }
+  .footerAll .logoFooter p {
+    font-size: 30px;
+    letter-spacing: 9px;
+  }
+  .footerAll footer .forTwo {
+    flex-direction: column;
+  }
+  .footerAll footer {
+    width: 90vw;
+  }
+  .footerAll .rightsFooter p {
+    text-align: center;
+  }
+  header nav ul:nth-child(1) li:nth-child(2) {
+    background-image: url("../CatalogPage/imgs/bars-solid.svg");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  header nav ul:nth-child(1) li:nth-child(2) p {
+    opacity: 0;
+  }
+  header nav ul:nth-child(3) li:nth-child(1) {
+    display: none;
+  }
+  header nav {
+    justify-content: space-around;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -226,3 +226,96 @@ header {
         }
     }
 }
+@media screen and (max-width:768px) {
+    .footerAll footer {
+        height: auto;
+        row-gap: 2vh;
+        flex-direction: column;
+    }
+    .aboutAll .withMap {
+        width: 100vw;
+        align-items: center;
+        iframe {
+            width: 700px;
+        }
+    }
+    .collectiveAll .collective {
+        flex-direction: column;
+    }
+    .collectiveAll .collective ul {
+        width: 70%;
+    }
+    .collectiveAll .collective {
+        align-items: flex-start;
+        width: 90vw;
+        height: auto;
+        row-gap: 2vh;
+    }
+    
+    .aboutAll {
+        flex-direction: column;
+        height: auto;
+        row-gap: 5vh;
+        padding-top: 5rem;
+    }
+    .aboutAll .withtextAbout {
+        width: 100vw;
+    }
+    .aboutAll .withtextAbout ul {
+        width: 90%;
+    }
+}
+@media screen and (max-width:320px) {
+     header nav ul:nth-child(2) p {
+        font-size: 30px;
+        letter-spacing: 9px;
+    }
+    .collectiveAll #nazvCol {
+        text-align: center;
+        font-size: 29px;
+    }
+    .collectiveAll .collective ul {
+        width: 90%;
+    }
+    .aboutAll .withMap {
+        p {
+            text-align: center;
+        }
+        iframe {
+            width: 320px;
+        }
+    }
+        header nav ul:nth-child(1)li:nth-child(1){
+        display: none;
+    }
+    .footerAll .logoFooter p{
+                font-size: 30px;
+        letter-spacing: 9px;
+    }
+    .footerAll footer .forTwo {
+        flex-direction: column;
+    }
+    .footerAll footer {
+        width: 90vw;
+    }
+    .footerAll .rightsFooter p {
+        text-align: center;
+    }
+    header nav ul:nth-child(1)li:nth-child(2){
+        background-image: url('../CatalogPage/imgs/bars-solid.svg');
+        background-size: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        p {
+            opacity: 0;
+        }
+    }
+    header nav ul:nth-child(3){
+        li:nth-child(1){
+            display: none;
+        }
+    }
+     header nav {
+        justify-content: space-around;
+    }
+}

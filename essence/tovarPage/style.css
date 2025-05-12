@@ -386,4 +386,150 @@ header nav ul li a {
 }
 .footerAll footer ul li a p {
   letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .commentsAll .comments .commentsContainer .commentCard ul:nth-child(2) li:nth-child(2) {
+    width: 83%;
+  }
+  .footerAll footer {
+    height: auto;
+    row-gap: 2vh;
+    flex-direction: column;
+  }
+  .allTovar .perfumeDescription ul p {
+    text-align: left;
+  }
+  .allTovar .perfumeDescription ul:nth-child(2) button {
+    width: 250px;
+  }
+  .allTovar .perfumeDescription {
+    row-gap: 6rem;
+  }
+  .allTovar .perfumeDescription ul:nth-child(2) li:nth-child(1) {
+    align-self: center;
+  }
+  .allTovar .perfumeDescription ul:nth-child(1) li:nth-child(2) {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .allTovar .perfumeDescription ul {
+    width: 65%;
+  }
+  .perfumeDescriptionTwo ul {
+    text-align: left;
+  }
+  .perfumeDescriptionTwo ul {
+    width: 65%;
+  }
+  .perfumeDescriptionTwo ul li:nth-child(1) {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .allTovar {
+    flex-direction: column-reverse;
+  }
+  .allTovar .perfumeDescription ul {
+    width: 90%;
+  }
+  .allTovar .perfumeDescription ul p {
+    text-align: center;
+  }
+  .allTovar .perfumeDescription ul:nth-child(1) li:nth-child(2) {
+    justify-content: center;
+  }
+  .allTovar .perfumeDescription {
+    padding-bottom: 5rem;
+  }
+  .forPhotoOdin {
+    width: 100%;
+  }
+  .perfumeDescriptionTwo {
+    width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .commentsAll .comments .commentsContainer .commentCard ul:nth-child(2) li:nth-child(2) {
+    width: 100%;
+  }
+  .commentsAll .comments .commentsContainer .commentCard ul:nth-child(2) {
+    flex-direction: column-reverse;
+    height: auto;
+    row-gap: 1vh;
+  }
+  .commentsAll .buttonReviewTwo button {
+    width: 300px;
+  }
+  .commentsAll .buttonReview button {
+    width: 300px;
+  }
+  .perfumeDescriptionTwo ul {
+    width: 100%;
+    text-align: center;
+  }
+  .allTovar .perfumeDescription ul:nth-child(2) button {
+    width: 290px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .allTovar .perfumeDescription ul:nth-child(1) li:nth-child(1) p {
+    font-size: 35px;
+  }
+  .allTovar .perfumeDescription ul:nth-child(2) li:nth-child(1) {
+    align-self: flex-start;
+  }
+  .allTovar .perfumeDescription {
+    width: 100%;
+    padding-top: 5rem;
+  }
+  .allTovar .forPhoto {
+    width: 100%;
+  }
+  header nav ul:nth-child(2) p {
+    font-size: 30px;
+    letter-spacing: 9px;
+  }
+  header nav ul:nth-child(1) li:nth-child(1) {
+    display: none;
+  }
+  .footerAll .logoFooter p {
+    font-size: 30px;
+    letter-spacing: 9px;
+  }
+  .footerAll footer .forTwo {
+    flex-direction: column;
+  }
+  .footerAll footer {
+    width: 90vw;
+  }
+  .footerAll .rightsFooter p {
+    text-align: center;
+  }
+  header nav ul:nth-child(1) li:nth-child(2) {
+    background-image: url("../CatalogPage/imgs/bars-solid.svg");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  header nav ul:nth-child(1) li:nth-child(2) p {
+    opacity: 0;
+  }
+  header nav ul:nth-child(3) li:nth-child(1) {
+    display: none;
+  }
+  header nav {
+    justify-content: space-around;
+  }
+  .commentsAll .comments .commentsContainer .commentCard ul:nth-child(1) {
+    flex-wrap: wrap;
+  }
+  .commentsAll .comments .commentsContainer .commentCard ul:nth-child(1) li:nth-child(2) {
+    left: 0;
+    order: 1;
+  }
+  .commentsAll .comments .commentsContainer .commentCard ul:nth-child(1) li:nth-child(1) {
+    order: 0;
+  }
 }/*# sourceMappingURL=style.css.map */
