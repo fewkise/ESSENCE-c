@@ -11,13 +11,14 @@ header {
   max-width: 100%;
   justify-content: space-around;
   height: auto;
+  overflow: hidden;
 }
 header .opisanieTovara {
   display: flex;
   align-items: center;
   justify-content: space-around;
   background-color: #FFFDF7;
-  width: 50%;
+  width: 50vw;
   height: 900px;
 }
 header .opisanieTovara ul {
@@ -348,4 +349,113 @@ header nav ul li a {
   header nav {
     justify-content: space-around;
   }
+  header .opisanieTovara ul li:nth-child(3) p {
+    display: none;
+  }
+  .slide {
+    flex-direction: column;
+  }
+  header .opisanieTovara {
+    width: 100vw;
+    height: 150px;
+  }
+  header .sliderContainer .withImg {
+    width: 100vw;
+  }
+  header .opisanieTovara ul {
+    width: 100%;
+  }
+  header .sliderContainer .withImg img {
+    height: 400px;
+    width: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .partnersAll ul:nth-child(2) img {
+    width: 60%;
+  }
+  header .opisanieTovara ul {
+    row-gap: 1vh;
+  }
+  .withImg, .opisanieTovara {
+    flex: none;
+  }
+  .weBelieveAll {
+    flex-direction: column-reverse;
+    height: auto;
+    row-gap: 5rem;
+  }
+  .weBelieveAll .withText {
+    width: 90%;
+    padding-bottom: 5rem;
+  }
+  .weBelieveAll .withText ul li {
+    width: 100%;
+  }
+  .weBelieveAll .withText ul li p {
+    text-align: center;
+  }
+  .weBelieveAll .withHand {
+    width: 100vw;
+  }
+  .weBelieveAll .withHand img {
+    height: 400px;
+    width: 500px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .blurImg p {
+    font-size: 28px;
+  }
+  .partnersAll ul:nth-child(1) p {
+    text-align: center;
+    font-size: 28px;
+  }
+  .partnersAll ul:nth-child(2) {
+    padding: 0;
+  }
+  .partnersAll ul:nth-child(2) li {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.sliderContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  display: flex;
+  width: 100vw;
+  max-width: 100%;
+}
+
+.prevBtn, .nextBtn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.prevBtn {
+  left: 10px;
+}
+
+.nextBtn {
+  right: 10px;
 }/*# sourceMappingURL=style.css.map */
